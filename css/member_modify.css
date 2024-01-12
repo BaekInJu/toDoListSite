@@ -1,0 +1,86 @@
+
+body {
+    background-color: #f2f2f2;
+    font-family: Arial, sans-serif;
+}
+
+#join_box {
+    width: 400px;
+    margin: 100px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+h2 {
+    text-align: center;
+    color: #333;
+}
+
+.form {
+    margin-bottom: 10px;
+}
+
+.col1 {
+    float: left;
+    width: 100px;
+    font-weight: bold;
+}
+
+.col2 {
+    float: left;
+    width: 200px;
+}
+
+.clear {
+    clear: both;
+}
+
+.bottom_line {
+    height: 1px;
+    background-color: #ccc;
+    margin-bottom: 10px;
+}
+
+.buttons {
+    text-align: center;
+}
+
+.buttons input[type="button"],
+.buttons input[type="submit"] {
+    width: 100px;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    margin-right: 10px;
+}
+.button a{
+    width: 100px;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    margin-right: 10px;
+}
+.col3 input[type="text"]{
+    width:80px;
+}
+
+.buttons input[type="button"]:last-child,
+.buttons input[type="submit"]:last-child {
+    margin-right: 0;
+}
+
+.buttons button {
+    display: block;
+    margin-top: 10px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+}

@@ -1,0 +1,62 @@
+
+body {
+    background-color: #f2f2f2;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+    color: #333;
+}
+
+form {
+    width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid#ccc;
+}
+
+form div {
+    margin-bottom: 10px;
+}
+
+form input[type="text"]{
+    width: 50%;
+    padding: 8px;
+    border: 1px solid white;
+}
+form input[type="tel"] {
+    width: 20%;
+    padding: 8px;
+    border: 1px solid #ccc;
+}
+
+
+form input[type="button"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+button a {
+    display: block;
+    text-decoration: none;
+    color: #fff;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+}
+.back{
+    width: 100px;
+}

@@ -1,0 +1,59 @@
+
+body {
+    background-color: #f2f2f2;
+    font-family: Arial, sans-serif;
+}
+
+
+.i {
+    width: 400px;
+    margin: 100px auto;
+    padding: 20px;
+    background-color: #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+
+h2 {
+    text-align: center;
+    color: #333;
+}
+
+
+.i input[type="text"],
+.i input[type="password"]{
+    width: calc(50% - 5px);
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+}
+.i input[type="tel"] {
+    width: calc(20% - 5px);
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+}
+
+
+
+.i input[type="button"],
+.i input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+
+.i button {
+    display: block;
+    margin-top: 10px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
